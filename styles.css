@@ -11,6 +11,7 @@ body {
 /* HEADER */
 header {
     background-color: #1F2937;
+    padding: 16px 208px;
 }
 
 /* Navigation */
@@ -22,29 +23,30 @@ header {
 
 .logo {
     font-size: 24px;
+    font-weight: 1000;
     color: #F9FAF8;
-    margin-top: 10px;
-    margin-left: 100px;
 }
 
 .nav ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
-    margin-right: 60px;
 }
 
-a {
+.secondary, 
+a:link {
     color: #E5E7EB;
     text-decoration: none;
+    font-size: 18px;
 }
 
+/* Introduction */
 .intro {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    padding: 100px 100px;
+    gap: 32px;
+    padding: 112px 0px;
 }
 
 .intro .left {
@@ -64,111 +66,115 @@ a {
   color: #F9FAF8; 
 }
 
-.secondary {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .image {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: gray;
-    font-family: "Roboto", sans-serif;
     height: 200px;
-}
-
-.placeholder {
-    color: #E5E7EB;
 }
 
 button {
     color: #F9FAF8;
     background-color: #3882F6;
-    border-radius: 20px;
-    padding: 10px;
-    width: 100px;
+    border-radius: 10px;
+    padding: 7px 16px;
+    width: 120px;
+    border: none;
 }
 
 /* Section 2 */
-h2 {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    padding: 10px 200px;
-}
-
-.outline {
+/* Card Section */
+main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 0 208px;
+    margin-top: 3em;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    gap: 0.5em;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    padding: 25px;
-    border: 5px solid #3882F6;
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
     border-radius: 20px; 
 }
 
 /* Section 3 */
-.quote-section {
-    background-color: #E5E7EB;
-    padding: 50px;
-    margin-top: 20px;
+.quote {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    background-color: #E5E7EB;
+    padding: 50px 90px;
 }
 
-.quote {
+.quote em {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    display: flex;
-    justify-content: center;
 }
 
 .quotee {
-    margin-left: 500px;
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1F2937;
 }
 
 /* Section 4 */
-.container-2 {
-    display: flex;
-    justify-content: center;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 20px;
-    margin: 50px;
-}
-
-.container-2 .left {
-    display: flex;
-    flex-direction: column;
-}
-
-.container-2 .right {
-    margin-left: 240px;
-}
-
-.button {
-    color: #F9FAF8;
-    border-color: #F9FAF8;
-    background-color: #3882F6;
-    border-radius: 20px;
-}
-
-.footer {
+/* Sign Up */
+.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5em 13em;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-2 button {
+    border: 2px solid #FFF;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
     background-color: #1F2937;
-    color: #E5E7EB;
+    color: #FFF;
 }
