@@ -11,14 +11,13 @@ body {
 /* HEADER */
 header {
     background-color: #1F2937;
-    padding: 16px 208px;
+    padding: 1em 13em;
 }
 
 /* Navigation */
 .nav {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 .logo {
@@ -30,11 +29,11 @@ header {
 .nav ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 1.5em;
 }
 
 .secondary, 
-a:link {
+a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
