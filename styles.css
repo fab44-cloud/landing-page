@@ -17,14 +17,12 @@ header {
 /* Navigation */
 .nav-bar {
     display: flex;
-    flex-direction: row;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 1000;
     color: #F9FAF8;
-    background-size: cover;
     width: 100px;
 }
 
