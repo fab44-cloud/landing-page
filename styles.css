@@ -15,18 +15,20 @@ header {
 }
 
 /* Navigation */
-.nav {
+.nav-bar {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 1000;
     color: #F9FAF8;
+    background-size: cover;
+    width: 100px;
 }
 
-.nav ul {
+.nav-bar ul {
     list-style-type: none;
     display: flex;
     gap: 1.5em;
