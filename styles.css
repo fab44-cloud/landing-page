@@ -11,12 +11,16 @@ body {
 /* HEADER */
 header {
     background-color: #1F2937;
-    padding: 1em 13em;
 }
 
 /* Navigation */
 .navbar {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: lightblue;
 }
 
 .logo {
@@ -24,6 +28,7 @@ header {
     font-weight: 1000;
     color: #F9FAF8;
     width: 100px;
+    border-radius: 50%;
 }
 
 .navbar ul {
