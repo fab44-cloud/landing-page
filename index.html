@@ -11,83 +11,92 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbar">
-        <a href="#title-section"
-          ><img class="header-logo" src="images/smart-logo.png" />
-        </a>
-        <ul class="nav-links">
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
-        </ul>
-      </nav>
+    <nav class="navbar">
+      <a href="#title-section"
+        ><img class="header-logo" src="images/FAB.png" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#gods">Gods</a></li>
+        <li><a href="#portfolio-section">Portfolio</a></li>
+        <li><a href="#quote-section">Testimonials</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
 
-      <div class="intro">
-        <div class="left">
-          <h1 class="hero">This website is awesome</h1>
-          <p class="secondary">
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast
-          </p>
-          <button class="secondary">Sign up</button>
+    <div class="page-wrapper">
+      <div id="title-section" class="title-section">
+        <div class="media-box">
+          <div class="textbox">
+            <h1>Welcome!</h1>
+            <p class="secondary">
+              This website is meant to showcase my new skills using flexbox!
+            </p>
+            <button class="secondary">Sign up</button>
+          </div>
+          <img
+            class="main-image"
+            src="https://cdn.pixabay.com/photo/2017/01/26/17/24/monument-2011140_1280.jpg"
+          />
         </div>
-        <div class="right">
-          <div class="image">
-            <p class="secondary">this is a placeholder for an image</p>
+      </div>
+
+      <div id="gods" class="gods">
+        <h2 class="title">Mythological Gods</h2>
+
+        <div class="god-container">
+          <div class="god">
+            <img class="god-icon" src="images/odin.jpg" />
+            <h2>Odin</h2>
+            <div class="god-text"></div>
+          </div>
+          <div class="god">
+            <img class="god-icon" src="images/poseidon.jpg" />
+            <h2>Poseidon</h2>
+            <div class="god-text"></div>
+          </div>
+          <div class="god">
+            <img class="god-icon" src="images/thor.jpg" />
+            <h2>Thor</h2>
+            <div class="god-text"></div>
+          </div>
+          <div class="god">
+            <img class="god-icon" src="images/zeus.jpg" />
+            <h2>Zeus</h2>
+            <div class="god-text"></div>
           </div>
         </div>
       </div>
-    </header>
 
-    <main>
-      <h2>Some random information.</h2>
-      <div class="card-container secondary">
-        <div class="card">
-          <div class="box"></div>
-          <p>this is some subtext under an illustration or image</p>
-        </div>
+      <div id="portfolio-section" class="portfolio-section">
+        <h1 class="title">Check out my portfolio!</h1>
+      </div>
 
-        <div class="card">
-          <div class="box"></div>
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-
-        <div class="card">
-          <div class="box"></div>
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-
-        <div class="card">
-          <div class="box"></div>
-          <p>this is some subtext under an illustration or image</p>
+      <div id="quote-section" class="quote-section">
+        <div class="quote">
+          <em>
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </em>
+          <span class="quotee">-Thor God of Thunder</span>
         </div>
       </div>
-    </main>
 
-    <div class="quote">
-      <em>
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's
-        just filling up space, or maybe people will actually read it. Who knows?
-        All I know is that it looks nice.
-      </em>
-      <span class="quotee">-Thor God of Thunder</span>
-    </div>
-
-    <div class="sign-up">
-      <div class="container-2">
-        <div class="left">
-          <strong>Call to action! It's time!</strong>
-          <p class="secondary">
-            Sign up for our product by clicking that button right over there!
-          </p>
-        </div>
-        <div class="right">
-          <button class="secondary">Sign up</button>
+      <div class="sign-up">
+        <div class="container-2">
+          <div class="left">
+            <strong>Call to action! It's time!</strong>
+            <p class="secondary">
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <div class="right">
+            <button class="secondary">Sign up</button>
+          </div>
         </div>
       </div>
-    </div>
 
-    <footer>Copyright &copy; The Odin Project 2021</footer>
+      <footer>Copyright &copy; The Odin Project 2021</footer>
+    </div>
   </body>
 </html>
