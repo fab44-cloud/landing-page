@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
     padding: 0;
     margin: 0;
 }
@@ -29,7 +31,7 @@ a {
     align-items: center;
     width: 100%;
     position: fixed;
-    background-color: rgb(66, 66, 187);
+    background-color: skyblue;
 }
 
 .header-logo {
@@ -59,9 +61,8 @@ a {
 .nav-links a:hover {
     background-color: #E5E7EB;
     cursor: pointer;
-    color: rgb(66, 66, 187);
+    color: skyblue;
 }
-
 
 /*  Title section */
 .title-section {
@@ -115,6 +116,11 @@ button {
     padding: 7px 16px;
     width: 120px;
     border: none;
+}
+
+button:hover {
+  background-color: gold; 
+  cursor: pointer; 
 }
 
 /* Section 2 */
@@ -208,18 +214,27 @@ button {
 .quote-section {
     display: flex;
     flex-direction: column;
-    padding: 128px 128px 96px;
-    background-color: peachpuff;
-    border-bottom: solid black 1px;
-    font-size: 24px;
-    line-height: 150%;
+    justify-content: center;
+    background-image: url("images/parthenon.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 128px;
+}
+
+.quote-section q {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: goldenrod 1px 1px 10px;
 }
 
 .quotee {
     text-align: end;
     font-style: normal;
     font-weight: 600px;
-    color: sienna;
+    color: white;
+    font-size: 30px;
 }
 
 /* Section 4 */
@@ -232,6 +247,7 @@ button {
     width: 100%;
     font-weight: bold;
     text-shadow: black 1px 1px;
+    padding-top: 50px;
 }
 
 .contact-info-container {
@@ -250,6 +266,10 @@ button {
 .contact-icon {
     height: 30px;
     width: 30px;
+}
+
+.contact-section h1 {
+    margin-bottom: 20px;
 }
 
 .contact-section a {
@@ -271,6 +291,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 2em 0;
-    background-color: rgb(66, 66, 187);
+    background-color: skyblue;
     color: #FFF;
 }
