@@ -31,7 +31,7 @@ a {
     align-items: center;
     width: 100%;
     position: fixed;
-    background-color: skyblue;
+    background-color: lightskyblue;
 }
 
 .header-logo {
@@ -61,7 +61,7 @@ a {
 .nav-links a:hover {
     background-color: #E5E7EB;
     cursor: pointer;
-    color: skyblue;
+    color: lightskyblue;
 }
 
 /*  Title section */
@@ -190,14 +190,14 @@ button:hover {
 .portfolio-icon {
     width: 200px;
     height: 200px;
-    border: 12px solid lightblue;
+    border: 12px solid lightskyblue;
     border-radius: 32px;
     box-shadow: 2px 2px 3px black;
     object-fit: cover;
 }
 
 .portfolio-icon:hover {
-    border: 12px solid skyblue;
+    border: 12px solid lightskyblue;
     border-radius: 32px;
     box-shadow: 2px 2px 10px navy;
 }
@@ -246,8 +246,9 @@ button:hover {
     text-align: center;
     width: 100%;
     font-weight: bold;
-    text-shadow: black 1px 1px;
     padding-top: 50px;
+    color: white;
+    text-shadow: black 2px 2px;
 }
 
 .contact-info-container {
@@ -291,6 +292,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 2em 0;
-    background-color: skyblue;
+    background-color: lightskyblue;
     color: #FFF;
 }
