@@ -95,9 +95,15 @@ a {
     padding-left: 20px;
 }
 
-.textbox h1{
+.textbox h1 {
     color: burlywood;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
+}
+
+.textbox p {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
 }
 
 .main-image {
@@ -224,17 +230,18 @@ button:hover {
 .quote-section q {
     text-align: center;
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
-    text-shadow: navy 1px 1px 10px;
+    text-shadow: navy 1px 1px 5px;
 }
 
 .quotee {
-    text-align: end;
+    padding-left: 4rem;
     font-style: normal;
-    font-weight: 600px;
-    color: white;
-    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 25px;
+    text-shadow: navy 1px 1px 5px;
 }
 
 /* Section 4 */
