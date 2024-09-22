@@ -1,0 +1,26 @@
+body {
+    background-color: #1F2937;
+}
+
+.heading-container {
+    display: flex;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    padding-left: 200px;
+}
+
+.right-header {
+    display: flex;
+    padding-left: 600px;
+    gap: 20px;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-right: 0px;
+}
