@@ -29,9 +29,13 @@ a {
     text-decoration: none;
 }
 
-.fun {
+.hero-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 100px 0;
 }
 
 .hero-main-text {
@@ -55,14 +59,8 @@ a {
     border: 1px solid #1F2937;
 }
 
-.hero-box {
-    border: 1px solid black;
-    padding: 5rem;
-    width: 200px;
-    text-align: center;
-    background-color: #737b84;
-    color: #E5E7EB;
-    float: right;
+.hero-container img {
+    width: 300px;
 }
 
 .information-container {
@@ -79,7 +77,6 @@ a {
 .subtext-container {
     display: flex;
     justify-content: center;
-    gap: 0;
 }
 
 figure img {
