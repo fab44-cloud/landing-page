@@ -32,8 +32,6 @@ a {
 .hero-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     gap: 50px;
     padding: 100px 0;
 }
@@ -48,6 +46,7 @@ a {
 .hero-secondary-text {
     font-size: 1.125rem;
     color: #E5E7EB;
+    margin-top: 0;
 }
 
 .hero-button {
@@ -65,6 +64,7 @@ a {
 
 .information-container {
     background-color: white;
+    padding: 50px;
 }
 
 .information-header {
@@ -91,25 +91,50 @@ figcaption {
 
 .quote-container {
     background-color: #E5E7EB;
+    padding: 50px;
 }
 
-.quote-container p {
+.quote-container q {
    font-size: 36px;
    font-style: italic; 
    color: #1F2937;
-   text-align: center;
+   display: flex;
+   justify-content: center;
+   margin: 0;
+}
+
+.quotee {
+    font-size: 20px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-container {
+    display: flex;
+    justify-content: center;
     background-color: #3882F6;
+    gap: 100px;
+    padding: 40px;
+    margin: 100px 250px;
+    border-radius: 10px;
 }
 
 .contact-container h3 {
     color: white;
+    margin-bottom: 0;
 }
 
 .contact-container p {
     color: #E5E7EB;
+    margin-top: 0;
+}
+
+.contact-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: solid #E5E7EB;
 }
 
 footer {
