@@ -3,7 +3,7 @@ body {
 }
 
 .section-one {
-    background-color:#1F2937;
+    background-color:#05445E;
 }
 
 .header-logo {
@@ -16,6 +16,7 @@ body {
  nav {
     display: flex;
     justify-content: space-between;
+    border: 1px solid #3882F6;
 }
 
 ul, li {
@@ -66,7 +67,7 @@ a {
 }
 
 .hero-button {
-    background-color: #3882F6;
+    background-color: #189AB4;
     color: #F9FAF8;
     border-radius: 10px;
     width: 120px;
@@ -75,13 +76,16 @@ a {
 }
 
 .information-container {
-    background-color: white;
+    background-color: #EAEAE0;
     padding: 50px;
 }
 
 .information-header {
     font-size: 36px;
-    color: #1F2937;
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: #189AB4;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: 900px;
     text-align: center;
 }
@@ -92,7 +96,7 @@ a {
 }
 
 figure img {
-    border: 4px solid #3882F6;
+    border: 4px solid #189AB4;
     border-radius: 10px;
 }
 
