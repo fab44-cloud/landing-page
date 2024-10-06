@@ -76,7 +76,7 @@ a {
 }
 
 .information-container {
-    background-color: #EAEAE0;
+    background-color: #AB729F;
     padding: 50px;
 }
 
@@ -84,7 +84,7 @@ a {
     font-size: 36px;
     color: white;
     text-decoration-line: underline;
-    text-decoration-color: #189AB4;
+    text-decoration-color: beige;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: 900px;
     text-align: center;
@@ -96,12 +96,12 @@ a {
 }
 
 figure img {
-    border: 4px solid #189AB4;
+    border: 4px solid beige;
     border-radius: 10px;
 }
 
 figcaption {
-    color: grey;
+    color: white;
     text-align: center;
 }
 
