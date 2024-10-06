@@ -3,7 +3,7 @@ body {
 }
 
 .section-one {
-    background-color:#05445E;
+    background-color:#4871E8;
 }
 
 .header-logo {
@@ -16,7 +16,7 @@ body {
  nav {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #3882F6;
+    border: 1px solid #7800A2
 }
 
 ul, li {
@@ -26,7 +26,7 @@ ul, li {
 }
 
 ul {
-    border: 1px solid #3882F6;
+    border: 1px solid #7800A2;
     flex: 1;
     max-width: 50%;
     display: flex;
@@ -67,7 +67,7 @@ a {
 }
 
 .hero-button {
-    background-color: #189AB4;
+    background-color: #7800A2;
     color: #F9FAF8;
     border-radius: 10px;
     width: 120px;
