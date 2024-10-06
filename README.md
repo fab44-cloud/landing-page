@@ -5,7 +5,7 @@ This landing page will showcase the following skills:
 -CSS
 •Flexbox
 
-Credit for Odin image: Canva
+Credit for clouds image: Canva
 Contact info: https://www.canva.com/colors/color-palettes/parting-clouds/
 
 Credit for recipe image: Oldmermaid
