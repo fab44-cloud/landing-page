@@ -58,10 +58,6 @@ a {
     border: 1px solid #1F2937;
 }
 
-.hero-container img {
-    width: 300px;
-}
-
 .information-container {
     background-color: white;
     padding: 50px;
@@ -94,7 +90,7 @@ figcaption {
     padding: 50px;
 }
 
-.quote-container q {
+.quote-container p {
    font-size: 36px;
    font-style: italic; 
    color: #1F2937;
@@ -105,9 +101,11 @@ figcaption {
 
 .quotee {
     font-size: 20px;
+    font-weight: bold;
     color: #1F2937;
     display: flex;
     justify-content: center;
+    margin-left: 450px;
 }
 
 .contact-container {
@@ -133,12 +131,16 @@ figcaption {
 .contact-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 10px;
-    border: solid #E5E7EB;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+    margin-top: 25px;
 }
 
 footer {
     background-color: #1F2937; 
     color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
