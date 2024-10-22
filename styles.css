@@ -11,7 +11,7 @@ body {
     width: 70px;
     background-size: cover;
     border-radius: 50% 50% 50% 50%;
-    border: 2px solid #FDB750;
+    border: 2px solid #F9FAF8;
 }
 
  nav {
@@ -71,7 +71,7 @@ a {
     border-radius: 10px;
     width: 120px;
     padding: 10px;
-    border: 2px solid #FDB750;
+    border: 2px solid #F9FAF8;
 }
 
 .hero-button:hover {
@@ -159,7 +159,7 @@ figcaption {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
-    border: 2px solid #FDB750;
+    border: 2px solid #F9FAF8;
     margin-top: 25px;
 }
 
