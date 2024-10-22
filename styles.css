@@ -7,16 +7,16 @@ body {
 }
 
 .header-logo {
-    height: 75px;
-    width: 75px;
+    height: 70px;
+    width: 70px;
     background-size: cover;
     border-radius: 50% 50% 50% 50%;
+    border: 2px solid #FDB750;
 }
 
  nav {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #7800A2
 }
 
 ul, li {
@@ -26,7 +26,6 @@ ul, li {
 }
 
 ul {
-    border: 1px solid #7800A2;
     flex: 1;
     max-width: 50%;
     display: flex;
@@ -67,12 +66,20 @@ a {
 }
 
 .hero-button {
-    background-color: #7800A2;
+    background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
     width: 120px;
     padding: 10px;
-    border: 1px solid #1F2937;
+    border: 2px solid #FDB750;
+}
+
+.hero-button:hover {
+    background-color: #FDB750;
+}
+
+img {
+    border-radius: 50% 50% 50% 50%;
 }
 
 .information-container {
@@ -82,9 +89,9 @@ a {
 
 .information-header {
     font-size: 36px;
-    color: white;
+    color: #F9FAF8;
     text-decoration-line: underline;
-    text-decoration-color: rgb(246, 198, 135);
+    text-decoration-color: #FDB750;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: 900px;
     text-align: center;
@@ -96,24 +103,24 @@ a {
 }
 
 figure img {
-    border: 4px solid rgb(246, 198, 135);
+    border: 4px solid #FDB750;
     border-radius: 10px;
 }
 
 figcaption {
-    color: white;
+    color: #F9FAF8;
     text-align: center;
 }
 
 .quote-container {
-    background-color: #E5E7EB;
+    background-color: #7800A2;
     padding: 50px;
 }
 
 .quote-container p {
    font-size: 36px;
    font-style: italic; 
-   color: #1F2937;
+   color: #F9FAF8;
    display: flex;
    justify-content: center;
    margin: 0;
@@ -122,7 +129,7 @@ figcaption {
 .quotee {
     font-size: 20px;
     font-weight: bold;
-    color: #1F2937;
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     margin-left: 450px;
@@ -131,7 +138,7 @@ figcaption {
 .contact-container {
     display: flex;
     justify-content: center;
-    background-color: #3882F6;
+    background-color: #4871E8;
     gap: 100px;
     padding: 40px;
     margin: 100px 250px;
@@ -139,7 +146,7 @@ figcaption {
 }
 
 .contact-container h3 {
-    color: white;
+    color: #F9FAF8;
     margin-bottom: 0;
 }
 
@@ -152,13 +159,17 @@ figcaption {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
-    border: 2px solid #E5E7EB;
+    border: 2px solid #FDB750;
     margin-top: 25px;
 }
 
+.contact-button:hover {
+    background-color: #FDB750;
+}
+
 footer {
-    background-color: #1F2937; 
-    color: #E5E7EB;
+    background-color: #4871E8; 
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     padding: 20px;
