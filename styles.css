@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -45,7 +49,7 @@ a {
     text-decoration: none;
 }
 
-.hero-container {
+#hero-container {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -82,12 +86,12 @@ img {
     border-radius: 50% 50% 50% 50%;
 }
 
-.information-container {
+#portfolio-container {
     background-color: #AB729F;
     padding: 50px;
 }
 
-.information-header {
+.portfolio-header {
     font-size: 36px;
     color: #F9FAF8;
     text-decoration-line: underline;
@@ -112,12 +116,12 @@ figcaption {
     text-align: center;
 }
 
-.quote-container {
+#quote-container {
     background-color: #7800A2;
     padding: 50px;
 }
 
-.quote-container p {
+#quote-container p {
    font-size: 36px;
    font-style: italic; 
    color: #F9FAF8;
@@ -135,7 +139,7 @@ figcaption {
     margin-left: 450px;
 }
 
-.contact-container {
+#contact-container {
     display: flex;
     justify-content: center;
     background-color: #4871E8;
@@ -145,12 +149,12 @@ figcaption {
     border-radius: 10px;
 }
 
-.contact-container h3 {
+#contact-container h3 {
     color: #F9FAF8;
     margin-bottom: 0;
 }
 
-.contact-container p {
+#contact-container p {
     color: #E5E7EB;
     margin-top: 0;
 }
