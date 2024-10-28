@@ -14,7 +14,7 @@ body {
     height: 70px;
     width: 70px;
     background-size: cover;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50px;
     border: 2px solid #F9FAF8;
 }
 
@@ -45,7 +45,7 @@ ul {
 
 a {
     color: #E5E7EB;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -82,8 +82,8 @@ a {
     background-color: #FDB750;
 }
 
-img {
-    border-radius: 50% 50% 50% 50%;
+.clouds-image {
+    border-radius: 50%;
 }
 
 #portfolio-container {
@@ -117,7 +117,7 @@ figcaption {
 }
 
 #quote-container {
-    background-color: #7800A2;
+    background-color: slateblue;
     padding: 50px;
 }
 
