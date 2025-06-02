@@ -13,3 +13,6 @@ Contact info: https://pixabay.com/users/oldmermaid-1999835/
 
 Credit for rock, paper, scissors image: Pavel Danilyuk
 Contact info: https://www.pexels.com/@pavel-danilyuk/
+
+Credit for sketch image: cottonbro
+Contact info: https://www.instagram.com/cottonbro/#
