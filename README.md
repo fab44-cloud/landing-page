@@ -2,9 +2,7 @@
 
 ## This landing page will showcase the following skills:
 
--HTML
--CSS
-•Flexbox
+## -HTML -CSS -Flexbox
 
 Credit for clouds image: Canva
 Contact info: https://www.canva.com/colors/color-palettes/parting-clouds/
