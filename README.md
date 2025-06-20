@@ -1,6 +1,7 @@
 # landing-page
 
-This landing page will showcase the following skills:
+## This landing page will showcase the following skills:
+
 -HTML
 -CSS
 •Flexbox
@@ -16,3 +17,6 @@ Contact info: https://www.pexels.com/@pavel-danilyuk/
 
 Credit for sketch image: cottonbro
 Contact info: https://www.instagram.com/cottonbro/#
+
+Credit for calculator image: Manuchi
+Contact info: https://pixabay.com/users/manuchi-1728328/
